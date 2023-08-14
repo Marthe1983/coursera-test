@@ -13,14 +13,29 @@
   }
 
   p {
-    border: 1px solid pink;
-    background-color: dark blue;
+    border: 1px solid black;
+    /**background-color: #A52A2A;**/
     width: 90%;
     height: 150px;
     margin-right: auto;
     margin-left: auto;
     font-family: Arial;
-    color: purple;
+    color: white;
+    position: relative;
+    top: 150px;
+    right: 150px;
+  }
+
+  #p1 {
+    background-color: blue;
+  }
+
+  #p2 {
+    background-color: red;
+  }
+
+  #p3 {
+    background-color: green;
   }
 
   /*** Simple Responsive Framework ***/
@@ -85,9 +100,9 @@
 <body>
 <h1>Module 2 Coding Assigment</h1>
   <div class="row">
-    <div class="col-lg-1 col-med-1 col-sl-1"><p>Texto 1</p></div>
-    <div class="col-lg-2 col-med-2 col-sl-2"><p>Texto 2</p></div>
-    <div class="col-lg-3 col-med-3 col-sl-3"><p>Texto 3</p></div>
+    <div class="col-lg-1 col-med-1 col-sl-1"><p id="p1">Texto 1</p></div>
+    <div class="col-lg-2 col-med-2 col-sl-2"><p id="p2">Texto 2</p></div>
+    <div class="col-lg-3 col-med-3 col-sl-3"><p id="p3">Texto 3</p></div>
   </div>
 </body>
 </html>
